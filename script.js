@@ -6,3 +6,10 @@ function SumAndAverage(numbers) {
 const numbers = [10, 20, 30, 40, 50];
 const result = SumAndAverage(numbers);
 console.log(`Total: ${result.total}, Average: ${result.average}`);
+
+function RemoveDuplicates(arr) {
+  return [...new Set(arr)];
+}
+const fruits = ["apple", "banana", "apple", "orange", "banana"];
+const uniqueFruits = RemoveDuplicates(fruits);
+console.log(uniqueFruits);
